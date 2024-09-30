@@ -1,8 +1,8 @@
-import Nav from "@/components/navbar";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 import type { Metadata } from "next";
 import "./globals.css";
 import { Providers } from "./providers";
-
 export const metadata: Metadata = {
 	title: "MultiCare",
 };
@@ -16,8 +16,9 @@ export default function RootLayout({
 		<html lang="en" className="light">
 			<body>
 				<Providers>
-					<Nav />
+					<Navbar />
 					{children}
+					<Footer />
 				</Providers>
 			</body>
 		</html>
