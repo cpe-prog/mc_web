@@ -30,12 +30,15 @@ export const Hero = () => {
 					</div>
 				</div>
 				<div className="flex items-center justify-center w-full lg:w-1/2">
-					<div className="bg-slate-400 rounded-lg p-1 pt-2 pb-2">
+					<div className="bg-slate-900 rounded-lg p-1 pt-3 pb-3">
+						<div className="bg-black border-2 border-slate-400 rounded-full w-3 h-3 absolute mt-1 ml-[123px]">
+							<span className="bg-white rounded-full w-2 h-2"></span>
+						</div>
 						<Image
 							src={heroImg}
-							width="206"
+							width="250"
 							height="207"
-							className={"object-cover rounded-lg border-1 border-black"}
+							className={"object-cover rounded-lg border-2 border-black"}
 							alt="Hero Illustration"
 							loading="eager"
 							placeholder="blur"

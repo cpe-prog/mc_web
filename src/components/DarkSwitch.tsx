@@ -6,7 +6,6 @@ const ThemeChanger = () => {
 	const [mounted, setMounted] = useState(false);
 	const { theme, setTheme } = useTheme();
 
-	// When mounted on client, now we can show the UI
 	useEffect(() => setMounted(true), []);
 
 	if (!mounted) return null;
@@ -39,7 +38,7 @@ const ThemeChanger = () => {
 						xmlns="http://www.w3.org/2000/svg"
 						width="24"
 						height="24"
-						viewBox="0 0 24 24"
+						viewBox="0 0 20 20"
 						fill="none"
 						stroke="currentColor"
 						strokeWidth="1"
