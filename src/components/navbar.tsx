@@ -6,7 +6,6 @@ import {
 	SheetHeader,
 	SheetTrigger,
 } from "@/components/ui/sheet";
-import { cn } from "@/lib/utils";
 import logo from "@/public/bp-logo.png";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu } from "lucide-react";
@@ -15,7 +14,7 @@ import Link from "next/link";
 import { useState } from "react";
 import ThemeChanger from "./DarkSwitch";
 
-export default function Navbar({ className }: { className: string }) {
+export default function Navbar() {
 	const navigation = ["Home", "About", "Download"];
 	const [open, setOpen] = useState(false);
 	const [visible, setVisible] = useState(true);
@@ -39,10 +38,7 @@ export default function Navbar({ className }: { className: string }) {
 				transition={{
 					duration: 0.2,
 				}}
-				className={cn(
-					"w-full bg-transparent backdrop-blur-lg fixed inset-x-0 z-[5000] space-x-4",
-					className
-				)}
+				className="w-full bg-transparent backdrop-blur-lg fixed inset-x-0 z-[5000] space-x-4"
 			>
 				<nav className="container relative flex max-w-[1280px] flex-wrap items-center justify-between py-6 px-16 mx-auto lg:justify-between xl:px-1">
 					<Link href="/">
