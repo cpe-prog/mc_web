@@ -11,7 +11,7 @@ const ThemeChanger = () => {
 	if (!mounted) return null;
 
 	return (
-		<div className="flex items-center order-last ">
+		<div className="flex items-center mr-2 order-last ">
 			{theme === "dark" ? (
 				<button
 					onClick={() => setTheme("light")}
