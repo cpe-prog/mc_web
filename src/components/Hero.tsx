@@ -3,8 +3,19 @@ import heroImg from "@/public/bg-app.png";
 import Image from "next/image";
 
 export const Hero = () => {
+	// const handleDownload = () => {
+	// 	fetch("GrianGajila-Resume.pdf").then((response) => {
+	// 		response.blob().then((blob) => {
+	// 			const fileUrl = window.URL.createObjectURL(blob);
+	// 			let alink = document.createElement("a");
+	// 			alink.href = fileUrl;
+	// 			alink.download = "/GrianGajilaResume.pdf";
+	// 			alink.click();
+	// 		});
+	// 	});
+	// };
 	return (
-		<div>
+		<div className="max-w-[1280px] p-4 pt-16">
 			<Container className="flex flex-wrap ">
 				<div className="flex items-center w-full lg:w-1/2">
 					<div className="max-w-2xl mb-8">
