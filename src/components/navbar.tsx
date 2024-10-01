@@ -12,7 +12,7 @@ export default function Navbar() {
 		<div className="w-full fixed backdrop-blur-lg bg bg-transparent inset-x-0 z-[5000] ">
 			<nav className="container relative flex max-w-[1280px] flex-wrap items-center justify-between py-6 px-16 mx-auto lg:justify-between xl:px-1">
 				<Link href="/">
-					<span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+					<span className="flex items-center space-x-2 text-2xl font-medium light:text-indigo-500 dark:text-gray-100">
 						<span>
 							<Image
 								src={logo}
@@ -43,7 +43,7 @@ export default function Navbar() {
 						<div>
 							<Disclosure.Button
 								aria-label="Toggle Menu"
-								className="px-2 py-1 text-gray-500 rounded-md lg:hidden hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:text-gray-300 dark:focus:bg-trueGray-700"
+								className="px-2 py-1 text-gray-500 rounded-md lg:hidden focus:outline-none dark:focus:bg-trueGray-700"
 							>
 								<svg
 									className="w-6 h-6 fill-current"
@@ -66,7 +66,7 @@ export default function Navbar() {
 								</svg>
 							</Disclosure.Button>
 
-							<Disclosure.Panel className="flex flex-wrap w-full my-5 lg:hidden">
+							<Disclosure.Panel className="flex w-full my-5 lg:hidden">
 								{navigation.map((item, index) => (
 									<Link
 										key={index}

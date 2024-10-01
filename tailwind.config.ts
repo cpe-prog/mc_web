@@ -11,7 +11,8 @@ const config: Config = {
 	theme: {
 		extend: {},
 	},
-	darkMode: "class",
-	plugins: [nextui()],
+	darkMode: ["class"],
+	// eslint-disable-next-line @typescript-eslint/no-require-imports
+	plugins: [nextui(), require("tailwindcss-animate")],
 };
 export default config;
