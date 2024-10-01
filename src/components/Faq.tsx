@@ -39,12 +39,9 @@ export const Faq = () => {
 
 const faqdata = [
 	{
-		question: "Is this template completely free to use?",
-		answer: "Yes, this template is completely free to use.",
-	},
-	{
-		question: "Can I use it in a commercial project?",
-		answer: "Yes, this you can.",
+		question: "Is this application applicable for any devices?",
+		answer:
+			"No, for now we are only supported android devices, we are hoping to have supported to upgrade our application on deffirent devices including apple brand.",
 	},
 	{
 		question: "What is your refund policy? ",

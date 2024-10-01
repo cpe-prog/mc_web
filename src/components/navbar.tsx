@@ -1,4 +1,5 @@
 "use client";
+import logo from "@/public/bp-logo.png";
 import { Disclosure } from "@headlessui/react";
 import Image from "next/image";
 import Link from "next/link";
@@ -15,14 +16,14 @@ export default function Navbar() {
 					<span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
 						<span>
 							<Image
-								src="/img/logo.svg"
-								width="32"
-								alt="N"
-								height="32"
-								className="w-8"
+								src={logo}
+								width="60"
+								alt="logo"
+								height="60"
+								className="w-12"
 							/>
 						</span>
-						<span>Nextly</span>
+						<b>Multi_Care</b>
 					</span>
 				</Link>
 
