@@ -1,6 +1,6 @@
+import { AccordionDetails } from "@/components/AccordionDetails";
 import { Container } from "@/components/Container";
 import { Cta } from "@/components/Cta";
-import { Faq } from "@/components/Faq";
 import { Hero } from "@/components/Hero";
 import { SectionTitle } from "@/components/SectionTitle";
 import { Video } from "@/components/Video";
@@ -20,7 +20,7 @@ export default function Home() {
 			</SectionTitle>
 
 			<Video videoId="asdf" />
-			<Faq />
+			<AccordionDetails />
 			<Cta />
 		</Container>
 	);

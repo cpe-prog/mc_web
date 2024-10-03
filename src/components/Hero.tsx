@@ -30,7 +30,7 @@ export const Hero = () => {
 
 						<div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row justify-center lg:justify-start">
 							<a
-								href=""
+								href="/download"
 								target="_blank"
 								rel="noopener"
 								className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md "
