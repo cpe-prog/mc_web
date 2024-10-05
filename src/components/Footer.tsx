@@ -9,7 +9,7 @@ export default function Footer() {
 	return (
 		<div className="relative ">
 			<Container>
-				<div className="grid max-w-[1280px] p-4 grid-cols-1 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
+				<div className=" grid grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 max-w-[1280px] py-6 px-8 xs:px-4 sm:px-4 md:px-8 gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 lg:grid-cols-5">
 					<div className="lg:col-span-2">
 						<div>
 							{" "}
