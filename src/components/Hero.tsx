@@ -28,7 +28,7 @@ export const Hero = () => {
 							checking, without going to the health center.
 						</p>
 
-						<div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row justify-center lg:justify-start">
+						<div className="flex flex-col space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center justify-center">
 							<a
 								href="/download"
 								target="_blank"
