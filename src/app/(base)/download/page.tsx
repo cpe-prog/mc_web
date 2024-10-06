@@ -24,7 +24,6 @@ export default function Download() {
 			const a = document.createElement("a");
 			a.href = url;
 			a.download = "app-release.apk"; // Change the name to what you want
-			document.body.appendChild(a);
 			a.click();
 			window.URL.revokeObjectURL(url);
 			route.push("/");
